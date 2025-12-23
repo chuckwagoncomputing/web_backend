@@ -178,8 +178,8 @@ a:hover	{ text-decoration: underline; }
 .site_logo {
 	background-repeat: no-repeat;
 	display: inline-block;
-	width: 149px;
-	height: 52px;
+	width: 100px;
+	height: 100px;
 }
 
 /* Site description and logo */
