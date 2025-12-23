@@ -20,5 +20,18 @@
         "soft-require": {
             "phpbb/phpbb": ">=3.1.2"
         }
+    },
+    "config": {
+        "audit": {
+            "ignore": {
+                "PKSA-365x-2zjk-pt47": "Remove after updating to PHP-BB 4",
+                "PKSA-b35n-565h-rs4q": "Remove after updating to PHP-BB 4",
+                "PKSA-hr4y-jwk2-1yb9": "Remove after updating to PHP-BB 4",
+                "PKSA-wws7-mr54-jsny": "Remove after updating to PHP-BB 4",
+                "PKSA-ztgh-x9c8-k66g": "Remove after updating to PHP-BB 4",
+                "PKSA-yhcn-xrg3-68b1": "Remove after updating to PHP-BB 4",
+                "PKSA-2wrf-1xmk-1pky": "Remove after updating to PHP-BB 4"
+            }
+        }
     }
 }

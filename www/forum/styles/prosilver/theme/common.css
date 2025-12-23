@@ -176,9 +176,10 @@ a:hover	{ text-decoration: underline; }
 }
 
 .site_logo {
+	background-repeat: no-repeat;
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 149px;
+	height: 52px;
 }
 
 /* Site description and logo */
@@ -224,20 +225,6 @@ a:hover	{ text-decoration: underline; }
 	border-radius: 7px;
 }
 
-.panel_content {
-	border-radius: 7px;
-	background-color: #F9F9F9;
-	padding: 5px 10px;
-}
-
-.panel_content a {
-	font-family: monospace;
-}
-
-.panel_content svg:hover  {
-	fill: #216ddf; 
-}
-  
 .post {
 	padding: 5px 10px;
 	margin-bottom: 4px;
@@ -682,15 +669,15 @@ table.table1 tbody th {
 /* Specific column styles */
 table.table1 .name		{ text-align: left; }
 table.table1 .center		{ text-align: center; }
-table.table1 .reportby	{ width: 15%; }
+table.table1 .reportby		{ width: 15%; }
 table.table1 .posts		{ text-align: center; width: 7%; }
-table.table1 .joined	{ text-align: left; width: 15%; }
-table.table1 .active	{ text-align: left; width: 15%; }
+table.table1 .joined		{ text-align: left; width: 15%; }
+table.table1 .active		{ text-align: left; width: 15%; }
 table.table1 .mark		{ text-align: center; width: 7%; }
 table.table1 .info		{ text-align: left; width: 30%; }
-table.table1 .info div	{ width: 100%; white-space: normal; overflow: hidden; }
-table.table1 .autocol	{ line-height: 2em; white-space: nowrap; }
-table.table1 thead .autocol { padding-left: 1em; }
+table.table1 .info div		{ width: 100%; white-space: normal; overflow: hidden; }
+table.table1 .autocol		{ line-height: 2em; white-space: nowrap; }
+table.table1 thead .autocol	{ padding-left: 1em; }
 
 table.table1 span.rank-img {
 	float: right;
@@ -744,6 +731,10 @@ table.info tbody th {
 	max-width: 100%;
 }
 
+.avatar-rank-container {
+	max-width: 20%;
+}
+
 .left-box.profile-details {
 	width: 80%;
 }
@@ -756,7 +747,6 @@ table.info tbody th {
 }
 
 dl.details {
-	/*font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;*/
 	font-size: 1.1em;
 }
 
@@ -792,12 +782,6 @@ fieldset.fields1 ul.recipients {
 fieldset.fields1 dd.recipients {
 	clear: left;
 	margin-left: 1em;
-}
-
-fieldset.fields1 ul.recipients  input.button2{
-	font-size: 0.8em;
-	margin-right: 0;
-	padding: 0;
 }
 
 fieldset.fields1 dl.pmlist > dt {
@@ -1288,7 +1272,7 @@ ul.linklist:after,
 	width: 50px;
 }
 
-.dropdown .clone.hidden  {
+.dropdown .clone.hidden {
 	display: none;
 }
 
